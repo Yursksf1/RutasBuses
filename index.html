@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rutas Buses</title>
     <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="/src/js/script.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="/index.html">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -23,25 +24,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" id="item-menu-bucaramanga">Bucaramanga</a>
+                        <a class="nav-link" href="/src/page/rutas_Bogota.html" id="item-menu-bogota">Bogotá</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="item-menu-bogota">Bogotá</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="item-menu-medellin">Medellín</a>
+                        <a class="nav-link" href="/src/page/rutas_Medellin.html" id="item-menu-medellin">Medellín</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    here is the page
-    <p>Medellin</p>
-    <img src="./src/img/metro.png" alt="" srcset="">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <script src="./src/js/activar-item-menu.js"></script>
     <div class="container">
         <br>
         <div class="row">
@@ -49,23 +40,29 @@
                 <div class="card">
                     <img class="card-img-top" src="./src/img/Transmilenio.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
-                      <h4 class="card-title">BOGOTA</h4>
-                      <p class="card-text">Rutas disponibles</p>
-                      <a href="./src/Page/rutas_Bogota.html" class="btn btn-primary">Ver Rutas</a>
+                        <h4 class="card-title">BOGOTA</h4>
+                        <p class="card-text">Rutas disponibles</p>
+                        <a href="./src/Page/rutas_Bogota.html" class="btn btn-primary">Ver Rutas</a>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col">
                 <div class="card">
                     <img class="card-img-top" src="./src/img/metro.png" alt="Card image" style="width:60%">
                     <div class="card-body">
-                      <h4 class="card-title">MEDELLIN</h4>
-                      <p class="card-text">Rutas disponibles</p>
-                      <a href="/src/Page/rutas_Medellin.html" class="btn btn-primary">Ver Rutas</a>
+                        <h4 class="card-title">MEDELLIN</h4>
+                        <p class="card-text">Rutas disponibles</p>
+                        <a href="/src/Page/rutas_Medellin.html" class="btn btn-primary">Ver Rutas</a>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="./src/js/activar-item-menu.js"></script>
 </body>
 
 </html>
